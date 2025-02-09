@@ -17,7 +17,7 @@ function updateTheme() {
         },
         "New York": {
             background: "url('https://fullsuitcase.com/wp-content/uploads/2022/05/One-day-in-New-York-USA-NYC-day-trip-itinerary.jpg')",
-            color: "#ffcc00"
+            color: "#95dae4"
         },
         "Tokyo": {
             background: "url('https://source.unsplash.com/1600x900/?tokyo,shibuya')",
