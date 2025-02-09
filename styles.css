@@ -1,68 +1,41 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?travel') no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
+    transition: background 0.5s ease-in-out;
+    color: #fff;
+    
+    text-align: center;
+    padding: 20px;
 }
 
 header {
-    background-color: #1d753a;
-    color: white;
     padding: 15px;
+    color: rgb(109, 17, 17);
+    text-align: center;
+    font-size: 2em;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .form-container {
-    background: white;
+    background: rgba(84, 14, 14, 0.6);
     padding: 20px;
-    width: 90%;
-    max-width: 500px;
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-input, select, button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #000;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #f4b25c;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin-top: 10px;
 }
 
 button:hover {
-    background-color: #45a049;
-}
-
-#itinerary {
-    text-align: left;
-    margin-top: 20px;
-}
-
-#itinerary ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#itinerary li {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-}
-
-#loading {
-    margin-top: 20px;
-    font-weight: bold;
+    background-color: #f3a659;
 }
