@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Travel Itinerary Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AI Travel Itinerary Planner</h1>
+    </header>
+    <div class="form-container">
+        <label for="search">Search for a City or Country:</label>
+        <input type="text" id="search" placeholder="Enter a destination...">
+        <button onclick="searchLocation()">Search</button>
+        
+        <label for="start-date">Start Date:</label>
+        <input type="date" id="start-date">
+        
+        <label for="end-date">End Date:</label>
+        <input type="date" id="end-date">
+        
+        <label for="budget">Budget:</label>
+        <input type="number" id="budget" placeholder="Enter your budget">
+        
+        <label for="currency">Currency:</label>
+        <select id="currency">
+            <option value="INR">INR</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="JPY">JPY</option>
+        </select>
+        
+        <button onclick="generateItinerary()">Generate Itinerary</button>
+        <div id="loading" style="display: none;">Loading...</div>
+        <h3>Suggested Itinerary:</h3>
+        <div id="itinerary"></div>
+        <button onclick="downloadPDF()">Download PDF</button>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #1d753a;
+    color: white;
+    padding: 15px;
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#itinerary {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#itinerary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#itinerary li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#loading {
+    margin-top: 20px;
+    font-weight: bold;
+}
